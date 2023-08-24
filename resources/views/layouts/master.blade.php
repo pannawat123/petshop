@@ -29,7 +29,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#">หน้าแรก</a></li>
                     <li><a href="{{ URL::to('pet') }}">ข้อมูลสัตว์</a></li>
-                    <li><a href="">ข้อมูลประเภทสัตว์</a></li>
+                    <li><a href="{{ URL::to('type') }}">ข้อมูลประเภทสัตว์</a></li>
                     <li><a href="#">รายงาน</a></li>
                 </ul>
             </div>
