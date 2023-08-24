@@ -28,7 +28,7 @@
                     <tbody>
                         @foreach ($pets as $p)
                             <tr>
-                                <td><img src="{{ $p->image_url }}" alt="" width="100"></td>
+                                <td><img src="/{{ $p->image_url }}" alt="" width="100"></td>
 
                                 <td>{{ $p->id }}</td>
                                 <td>{{ $p->name }}</td>
